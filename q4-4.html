@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>reduce() method for calculating sum of array elements</p>
+<p id="demo"></p>
+<script>
+
+let total = [70000,100000,26900,30000,35000,10000].reduce(function (accumVariable, curValue) {
+return accumVariable + curValue
+}, 0);
+document.getElementById("demo").innerHTML = total;
+</script>
+</body>
+</html>
